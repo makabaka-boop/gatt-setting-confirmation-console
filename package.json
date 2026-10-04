@@ -1,0 +1,23 @@
+{
+  "name": "ble-controller-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "test:scenarios": "tsx scripts/test-scenarios.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.38"
+  },
+  "devDependencies": {
+    "@types/web-bluetooth": "^0.0.20",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vue-tsc": "^2.0.29"
+  }
+}
